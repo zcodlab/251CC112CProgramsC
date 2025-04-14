@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1744598028 source:c:\apps\codeblockscplusplus251\251.uni.fp.pd1.ejercicio8\main.cpp
+	<iostream>
+	<time.h>
+
