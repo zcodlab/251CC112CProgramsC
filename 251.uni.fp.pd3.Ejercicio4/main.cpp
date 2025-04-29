@@ -11,6 +11,7 @@ int longitudEntrada(char entrada[]){
     while(token){//while(token!=nullptr)
             token=strtok(NULL,",");
             i++;
+            cout<<"tokenI: "<<token<<" i= "<<i<<endl;
     }
     return i;
 }
