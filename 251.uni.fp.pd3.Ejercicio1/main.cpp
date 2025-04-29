@@ -18,6 +18,7 @@ string encuentraSubcadenaPalindromaMayor(string str){
             for(int k=0;k<=1;k++){//k=0 caso impar; k=1 caso par
                     actual_str=expand(str,i,i+k);
                     actual_longitud=actual_str.length();
+                    cout<<" i="<<i<<" k "<<k<<" str= "<<str<<" actual_str "<<actual_str<< " actual_longitud: "<<actual_longitud<<" maxima_longitud "<<maxima_longitud<<endl;
                     if(actual_longitud>maxima_longitud){
                         maxima_longitud=actual_longitud;
                         max_str=actual_str;
