@@ -1,7 +1,27 @@
 #include <iostream>
 using namespace std;
 const int NUM_VENDEDORES=99;
-const int BLOQUE_INICIAL=10;
+const int BLOQUE_INICIAL=3;
+
+//funcion para expandir tamaño del array dinamico
+int* expandirArrayInt(int* original,int tamanioActual,int nuevoTamanio){
+    int* nuevoArray=new int[nuevoTamanio];
+    //Realizando la reasignacion
+     for(int i=0;i<tamanioActual;i++)
+            nuevoArray[i]=original[i];
+    delete[] original;
+    return nuevoArray;
+}
+
+//funcion para expandir tamaño del array dinamico
+float* expandirArrayFloat(float* original,int tamanioActual,int nuevoTamanio){
+    float* nuevoArray=new float[nuevoTamanio];
+    //Realizando la reasignacion
+     for(int i=0;i<tamanioActual;i++)
+            nuevoArray[i]=original[i];
+    delete[] original;
+    return nuevoArray;
+}
 
 void ingresarVentas(float*& montos,int*& codigos,int& numVentas){
     float monto;
@@ -23,8 +43,9 @@ void ingresarVentas(float*& montos,int*& codigos,int& numVentas){
             }
             //si supero la capacidad del array dinamico, incrementar su tamaño
             if(numVentas>=capacidad){
-                cout<<"Pendiente de Implementacion.";
-                break;
+                capacidad+= BLOQUE_INICIAL;
+                montos=expandirArrayFloat(montos,numVentas,capacidad);
+                codigos=expandirArrayInt(codigos,numVentas,capacidad);
             }
             montos[numVentas]=monto;
             codigos[numVentas]=codigo;
@@ -90,5 +111,7 @@ int main()
     //Liberar memoria dinamica
     delete[] vecMontos;
     delete[] vecCodigos;
+    vecMontos=nullptr;
+    vecCodigos=nullptr;
     return 0;
 }
