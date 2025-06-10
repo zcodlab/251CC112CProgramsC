@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1749519725 source:c:\apps\codeblockscplusplus251d\251.uni.fp.pd5.ejercicio4\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+
