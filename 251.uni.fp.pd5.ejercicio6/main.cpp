@@ -37,7 +37,7 @@ int main()
     //5.-Invertir el valor de dato[0], con fines experimentales
     ArrayDS[iModificar].dato[0]=(ArrayDS[iModificar].dato[0]==0)?1:0;
     //6.-Verificar Errores
-    cout<<"Verificacion de errores"
+    cout<<"Verificacion de errores\n";
     for(int i=0;i<ndseguros;i++){
         xVerificacion=fVerificacion(ArrayDS[i]);
         if(xVerificacion!=0){
@@ -46,9 +46,8 @@ int main()
             cout<<"Error:"<<ArrayDS[i].error<<endl;
         }
     }
-
-
-
+    //7.-visualizar el estado final del array
+    imprimirArreglo(ArrayDS,ndseguros,"Estado final del array");
     return 0;
 }
 
@@ -71,4 +70,15 @@ void imprimirArreglo(datoSeguro arr[],int n,const string& titulo){
             cout<<arr[i].dato[j]<<" ";
         cout<<"; Paridad: "<<arr[i].paridad<<"; Error: "<<arr[i].error<<endl;
     }
+}
+
+int fVerificacion(datoSeguro& dS){
+    int xParidad;
+    int x0=dS.dato[0];
+    for(int j=1;j<ndato;j++){
+            xParidad=(x0==dS.dato[j])? 0: 1;
+            x0=xParidad;
+    }
+    dS.error=(xParidad==dS.paridad)? 0:1;
+    return dS.error;
 }
