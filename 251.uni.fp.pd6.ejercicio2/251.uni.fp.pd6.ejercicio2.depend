@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1750738376 source:c:\apps\codeblockscplusplus251d\251.uni.fp.pd6.ejercicio2\main.cpp
+	<iostream>
+	<iomanip>
+	"Package.cpp"
+	"TwoDayPackage.cpp"
+	"Package.h"
+	"TwoDayPackage.h"
+
+1750737841 c:\apps\codeblockscplusplus251d\251.uni.fp.pd6.ejercicio2\package.cpp
+	"Package.h"
+	<stdexcept>
+	<iostream>
+
+1750738351 c:\apps\codeblockscplusplus251d\251.uni.fp.pd6.ejercicio2\package.h
+	<string>
+
+1750738351 c:\apps\codeblockscplusplus251d\251.uni.fp.pd6.ejercicio2\twodaypackage.cpp
+	"TwoDayPackage.h"
+	<stdexcept>
+
+1750737956 c:\apps\codeblockscplusplus251d\251.uni.fp.pd6.ejercicio2\twodaypackage.h
+	"Package.h"
+
