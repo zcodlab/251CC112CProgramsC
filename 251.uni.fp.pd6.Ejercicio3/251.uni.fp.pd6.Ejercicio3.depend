@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1751046566 source:c:\apps\codeblockscplusplus251\251.uni.fp.pd6.ejercicio3\main.cpp
+	<iostream>
+	<iomanip>
+	"cuenta.h"
+	"CuentaAhorros.h"
+	"CuentaCorriente.h"
+	"cuenta.cpp"
+	"CuentaAhorros.cpp"
+	"CuentaCorriente.cpp"
+
+1751044272 c:\apps\codeblockscplusplus251\251.uni.fp.pd6.ejercicio3\cuenta.h
+
+1751045485 c:\apps\codeblockscplusplus251\251.uni.fp.pd6.ejercicio3\cuentaahorros.h
+	"cuenta.h"
+
+1751045492 c:\apps\codeblockscplusplus251\251.uni.fp.pd6.ejercicio3\cuentacorriente.h
+	"cuenta.h"
+
+1751046315 c:\apps\codeblockscplusplus251\251.uni.fp.pd6.ejercicio3\cuenta.cpp
+	<iostream>
+	"cuenta.h"
+
+1751045664 c:\apps\codeblockscplusplus251\251.uni.fp.pd6.ejercicio3\cuentaahorros.cpp
+	"CuentaAhorros.h"
+
+1751046605 c:\apps\codeblockscplusplus251\251.uni.fp.pd6.ejercicio3\cuentacorriente.cpp
+	<iostream>
+	"CuentaCorriente.h"
+
