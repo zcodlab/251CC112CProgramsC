@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1751343407 source:c:\apps\codeblockscplusplus251\251.uni.fp.pc4.ejercicio2\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string>
+
