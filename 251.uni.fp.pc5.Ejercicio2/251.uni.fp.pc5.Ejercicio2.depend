@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1751927936 source:c:\apps\codeblockscplusplus251d\251.uni.fp.pc5.ejercicio2\main.cpp
+	<iostream>
+	"rectangulo.h"
+
+1751246575 c:\apps\codeblockscplusplus251d\251.uni.fp.pc5.ejercicio2\rectangulo.h
+
+1751246571 source:c:\apps\codeblockscplusplus251d\251.uni.fp.pc5.ejercicio2\rectangulo.cpp
+	"Rectangulo.h"
+	<iostream>
+	<cmath>
+	<iomanip>
+

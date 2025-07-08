@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1751918657 source:c:\apps\codeblockscplusplus251d\251.uni.fp.pc5.ejercicio3\main.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+
