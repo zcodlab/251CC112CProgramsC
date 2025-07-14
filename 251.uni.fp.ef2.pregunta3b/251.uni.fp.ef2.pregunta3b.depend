@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1752208887 source:c:\apps\codeblockscplusplus251d\251.uni.fp.ef2.pregunta3b\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<cstring>
+
